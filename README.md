@@ -12,9 +12,9 @@ Tested working with:
 
 From the AUR, install
 
-- https://aur.archkinux.org/libfprint-tod-git // AUR
+- https://aur.archkinux.org/libfprint-tod-git
 
-- https://aur.archkinux.org/libfprint-2-tod1-broadcom // AUR
+- https://aur.archkinux.org/libfprint-2-tod1-broadcom
 
 
 Clone and run `sudo sh ./install.sh && python3 debian/update-fw.py`
@@ -31,9 +31,6 @@ The first time you run `fprintd` it may update the firmware for your sensor. Thi
 
 ## bugs
 
-A known bug with `libfprint-2-tod1-broadcom` is that `fprintd-verify` is run synchronously and blocked when only one print is being searched. You MUST enroll two prints.
+`fprintd-enroll` works, but `fprintd-verify` hangs:
 
-`fprintd-verify` hangs:
-
-Same bug as above. Enroll two prints, and instead use `fprintd-verify -f any`
-
+A known bug with `libfprint-2-tod1-broadcom` is that `fprintd-verify` is run synchronously and blocked when only one print is being searched. You MUST enroll two prints and use `fprintd-verify -f any` instead.
