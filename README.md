@@ -27,10 +27,25 @@ Reboot your machine - drivers should now be installed and working.
 
 The first time you run `fprintd` it may update the firmware for your sensor. This can take around 5 minutes, and the device will be unavailable during that time. Be patient!
 
+To login to a tty with your fingerprint:
 
+`/etc/pam.d/system-local-login`
+
+```
+auth	sufficient	pam_fprintd.so
+```
+
+To verify sudo with your fingerprint:
+
+`/etc/pam.d/sudo`
+
+```
+auth	sufficient	pam_fprintd.so
+```
 
 ## bugs
 
 `fprintd-enroll` works, but `fprintd-verify` hangs:
 
 A known bug with `libfprint-2-tod1-broadcom` is that `fprintd-verify` is run synchronously and blocked when only one print is being searched. You MUST enroll two prints and use `fprintd-verify -f any` instead.
+
