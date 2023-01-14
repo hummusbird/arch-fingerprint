@@ -4,7 +4,7 @@ Tested working with:
 
 - DELL Latitude 5400 (0a5c:5843)
 
-- DELL Latitude 7240 (0a5c:5843)
+- DELL Latitude 7430 (0a5c:5843)
 
 ## install
 
