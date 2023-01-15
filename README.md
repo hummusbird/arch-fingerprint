@@ -43,9 +43,21 @@ To verify sudo with your fingerprint:
 auth	sufficient	pam_fprintd.so
 ```
 
+To unlock i3lock with your fingerprint:
+
+`/etc/pam.d/i3lock`
+
+```
+auth	sufficient	pam_fprintd.so
+```
+
 ## bugs
 
 `fprintd-enroll` works, but `fprintd-verify` hangs:
 
 A known bug with `libfprint-2-tod1-broadcom` is that `fprintd-verify` is run synchronously and blocked when only one print is being searched. You MUST enroll two prints and use `fprintd-verify -f any` instead.
 
+
+i3lock doesn't unlock:
+
+i3lock only verifies after an input is entered, i.e. press enter, then scan your fingerprint.
