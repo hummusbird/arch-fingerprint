@@ -2,9 +2,11 @@
 
 Tested working with:
 
-- DELL Latitude 5400 (0a5c:5843)
+- DELL Latitude 5400 (Broadcom 0a5c:5843)
 
-- DELL Latitude 7430 (0a5c:5843)
+- DELL Latitude 7430 (Broadcom 0a5c:5843)
+
+- DELL XPS 9310 (GOODIX 27c6:533c)
 
 ## install
 
@@ -14,12 +16,21 @@ From the AUR, install
 
 - https://aur.archkinux.org/libfprint-tod-git
 
-- https://aur.archkinux.org/libfprint-2-tod1-broadcom
+### broadcom
 
+From the AUR, install
+
+- https://aur.archkinux.org/libfprint-2-tod1-broadcom
 
 Clone and run `sudo sh ./install.sh && python3 debian/update-fw.py`
 
 - https://git.launchpad.net/libfprint-2-tod1-broadcom
+
+### XPS 93XX (GOODIX 27c6:533c)
+
+From the AUR, install
+
+- https://aur.archlinux.org/libfprint-2-tod1-xps9300-bin
 
 ## usage
 
