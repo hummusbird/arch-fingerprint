@@ -1,12 +1,16 @@
 # Arch Linux fingerprint guide
 
-Tested working with:
+### Tested working with:
 
 - DELL Latitude 5400 (Broadcom 0a5c:5843)
 
 - DELL Latitude 7430 (Broadcom 0a5c:5843)
 
 - DELL XPS 9310 (GOODIX 27c6:533c)
+
+### no drivers:
+
+- DELL XPS 7390 (GOODIX 27c6:5385)
 
 ## install
 
