@@ -1,6 +1,6 @@
 # Arch Linux fingerprint guide
 
-## Tested working with:
+### Tested working with:
 
 - DELL Latitude 5400 (Broadcom 0a5c:5843)
 
@@ -10,11 +10,11 @@
 
 - DELL Vostro 5481 (GOODIX 27c6:538c)
 
-## No drivers available:
+### No drivers available:
 
 - DELL XPS 7390 (GOODIX 27c6:5385)
 
-# installation
+## installation
 
 `sudo pacman -Syu openssl-1.1 fprintd python-gobject`
 
@@ -22,7 +22,7 @@ From the AUR, install
 
 - https://aur.archkinux.org/libfprint-tod-git
 
-## broadcom
+### broadcom
 
 From the AUR, install
 
@@ -32,7 +32,7 @@ Clone and run `sudo sh ./install.sh && python3 debian/update-fw.py`
 
 - https://git.launchpad.net/libfprint-2-tod1-broadcom
 
-## GOODIX 538c & 533c
+### GOODIX 538c & 533c
 
 From the AUR, install
 
