@@ -14,6 +14,8 @@
 
 - DELL XPS 7390 (GOODIX 27c6:5385)
 
+- DELL Latitude 7280 (Broadcom 0a5c:5833)
+
 ## installation
 
 `sudo pacman -Syu openssl-1.1 fprintd python-gobject`
