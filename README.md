@@ -4,6 +4,8 @@
 
 - DELL Latitude 5400 (Broadcom 0a5c:5843)
 
+- DELL Latitude 5410 (Broadcom 0a5c:5843)
+
 - DELL Latitude 7430 (Broadcom 0a5c:5843)
 
 - DELL XPS 9310 (GOODIX 27c6:533c)
