@@ -8,6 +8,8 @@
 
 - DELL Latitude 5430 (Broadcom 0a5c:5843)
 
+- DELL Latitude 7420 (Broadcom 0a5c:5843)
+
 - DELL Latitude 7430 (Broadcom 0a5c:5843)
 
 - DELL XPS 9310 (GOODIX 27c6:533c)
@@ -26,13 +28,13 @@
 
 From the AUR, install
 
-- https://aur.archkinux.org/libfprint-tod-git
+- https://aur.archlinux.org/libfprint-tod-git
 
 ### broadcom
 
 From the AUR, install
 
-- https://aur.archkinux.org/libfprint-2-tod1-broadcom
+- https://aur.archlinux.org/libfprint-2-tod1-broadcom
 
 Clone and run `sudo sh ./install.sh && python3 debian/update-fw.py`
 
