@@ -20,6 +20,8 @@
 
 - DELL XPS 7390 (GOODIX 27c6:5385)
 
+- DELL XPS 9570 (GOODIX 27c6:5395)
+
 - DELL Latitude 7280 (Broadcom 0a5c:5833)
 
 ## installation
