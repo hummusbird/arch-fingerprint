@@ -24,6 +24,8 @@
 
 - DELL Latitude 7280 (Broadcom 0a5c:5833)
 
+- DELL Latitude E5470 (Broadcom 0a5c:5834)
+
 ## installation
 
 `sudo pacman -Syu openssl-1.1 fprintd python-gobject`
